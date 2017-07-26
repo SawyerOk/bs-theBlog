@@ -1,5 +1,6 @@
 $(function(){
 //For changing items in caruosel in aside
+//Need to be fixed the active in list-group-item
   var clickEvent = false;
   $("#m-carousel-st").carousel({
     interval: 4000

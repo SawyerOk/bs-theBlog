@@ -11,14 +11,14 @@ footer {
     text-align: center; }
 
 body {
-  background: #fff;
-  color: #666; }
+  background: #eee; }
 
 .container-main {
   overflow: auto;
   border-radius: 10px;
   margin-top: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  background: #ddd; }
 
 #m-carousel-st {
   margin-bottom: 20px; }
