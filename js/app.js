@@ -26,14 +26,10 @@ $(function(){
 $(window).on('load', function() {
 // When screan is 768 and below, something goeng wron
   if ($(window).width() < 768) {
-   console.log("Return");
    return;
 }
-  console.log("Dont return");
   var boxheight = $('#m-carousel-st .carousel-inner').innerHeight();
-  console.log("carousel-st innerHeight = " + boxheight );
   var itemlength = $('#m-carousel-st .item').length;
-  console.log("Item lemns");
   var triggerheight = Math.round(boxheight/itemlength+1);
   $('.list-group-item').outerHeight(triggerheight);
 });
