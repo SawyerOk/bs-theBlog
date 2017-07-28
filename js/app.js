@@ -6,7 +6,6 @@ $(function(){
 
   $(".list-group-item").on('click',  function(){
     clickEvent = true;
-    console.log("true clickEvent");
     $('.list-group li.active').removeClass('active');
     $(this).addClass('active');
   });
@@ -14,7 +13,6 @@ $(function(){
     interval: 4000
   }).on('slide.bs.carousel', function(e){
     if(!clickEvent){
-      console.log("false");
       var count = $('.list-group').children().length - 1;
       var current = $('.list-group li.active');
       current.removeClass('active').next().addClass('active');
